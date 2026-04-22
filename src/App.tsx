@@ -58,7 +58,51 @@ const categories = [
   'Small Appliances',
   'Home & Office',
 ]
+const topLinks = [
+  'Flash Deals',
+  'Best Sellers',
+  'Air Conditioners',
+  'Second Hand',
+  'Generators',
+  'Gift Ideas',
+  'Laptops Promo',
+]
 
+const heroCards = [
+  {
+    title: 'Mega Tech Sale',
+    subtitle: 'Save up to 30% on phones, TVs and home appliances',
+    cta: 'Shop Now',
+  },
+  {
+    title: 'Home Essentials',
+    subtitle: 'Fridges, microwaves, irons, fans and more',
+    cta: 'View Offers',
+  },
+  {
+    title: 'Office & Furniture',
+    subtitle: 'Office tables, chairs, TV stands and dining sets',
+    cta: 'Explore',
+  },
+]
+
+const collections = [
+  'Samsung Smart TV',
+  'LG Smart TV',
+  'Washing Machine',
+  'Microwave',
+  'Soundbars',
+  'Gas Cookers',
+  'Fridges',
+  'Office Furniture',
+]
+
+const features = [
+  { title: 'Fast Delivery', text: 'From 3 hours in selected areas' },
+  { title: 'Authentic Products', text: '100% genuine and guaranteed' },
+  { title: 'After-Sales Support', text: 'Responsive customer service' },
+  { title: 'Easy Returns', text: '7-day return window' },
+]
 const initialProducts: Product[] = [
   { id: '1', category: 'Electronics', name: 'Samsung Smart TV', price: 329900, oldPrice: 389900, rating: 4.7, tag: 'Hot' },
   { id: '2', category: 'Electronics', name: 'LG Smart TV', price: 279900, oldPrice: 329900, rating: 4.8, tag: 'Top' },
